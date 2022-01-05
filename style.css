@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.header-btn{
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+    margin: 5px;
+    background-image: linear-gradient(rgb(99, 136, 112),rgb(125, 175, 84)); 
+    border-radius: 10px; 
+}
+
+header ul{
+    display: flex;
+}
+header span{
+    color: rgb(13, 129, 13);
+    font-family: 'The Nautigal', cursive;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+h1{
+    font-size: 25px;
+}
+header{
+    box-shadow: 0px 7px 25px -6px rgba(0,0,0,0.55);
+    background-image: url(./images/back_img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    
+}
+.flex-display{
+    display: flex;
+    justify-content: space-between;
+}
+.align-items{
+    align-items: center;
+}
